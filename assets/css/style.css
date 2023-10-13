@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Tilt+Neon&display=swap');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 72px;
+    color: blue;
+}
+
+body {
+    background-color: aquamarine;
+}
