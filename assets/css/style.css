@@ -3,7 +3,7 @@
 /* ------------------------------COLOURS */
 
 body {
-    background-color: #74b0c4;
+    background-color: #92BBFF;
 }
 
 .ui-menu-color-home {
@@ -26,25 +26,32 @@ body {
     padding: 30px;
 }
 
-a :hover {
+#menu a :hover {
     background-color: #fff;
     color: #850e04;
 }
 
+section {
+    background-color: #ACCBFF;
+}
 
 /*--------------------------------HEADER TEXT DESIGN*/
 
 span {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
-    text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     margin: 0;
 }
 
-h1 {
+a {
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
     font-family: "Tilt Neon", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -52,6 +59,16 @@ h1 {
     font-size: 300%;
     color: #1e1666;
 }
+
+#social {
+    list-style-type: none;
+    margin-top: 20px;
+    width: 200px;
+    letter-spacing: 3px;
+    float: right;
+    margin-right: 10px;
+}
+
 
 
 /*--------------------------------HEADER DESIGN*/
@@ -64,15 +81,8 @@ h1 {
     margin-right: 0;
 }
 
-.social-box-right {
-    margin-top: 20px;
-        text-align: right;
-        width: 250px;
-}
-
-.justify-content-center{
-    margin-top: 20px;
-    text-align: center;
+.active > span {
+    border-bottom: 2px solid #1e1666;
 }
 
 /*--------------------------------FONT AWESOME STYLING*/
@@ -96,15 +106,29 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 250px;
+    margin-top: 5px;
 }
 
 /*--------------------------------TEXT DESIGN*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100px;
+    font-size: 20px;
+    color: #1e1666;
+}
 
 .main-text {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100px;
     font-size: 20px;
     color: #1e1666;
+    padding: 2rem;
+}
+
+.col-8 > h3 {
+    color: #1e1666;
+    text-align: center;
 }
 
 /*--------------------------------SECTION DESIGN*/
@@ -114,7 +138,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
-    
+    border: 20px;
 }
 
 /*--------------------------------WIN FORM*/
@@ -150,4 +174,16 @@ h3 {
     background-color: #fff;
     border: none;
     border-radius: 5px;
+}
+
+/*--------------------------------PICTURES*/
+
+#photos {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100%;
 }
