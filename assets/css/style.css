@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Tilt+Neon&display=swap');
 
+
 /* ------------------------------COLOURS */
 
 body {
@@ -9,7 +10,7 @@ body {
 .ui-menu-color-home {
     background-color: #9f2305;
     padding: 30px;
-    }
+}
 
 .ui-menu-color-todo {
     background-color: #aa2704;
@@ -73,15 +74,11 @@ a {
 
 /*--------------------------------HEADER DESIGN*/
 
-.container {
-    margin: 0;
-}
-
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
 
-.active > span {
+.active>span {
     border-bottom: 2px solid #1e1666;
 }
 
@@ -126,19 +123,18 @@ body {
     padding: 2rem;
 }
 
-.col-8 > h3 {
+.col-8>h3 {
     color: #1e1666;
     text-align: center;
 }
 
-/*--------------------------------SECTION DESIGN*/
+/*--------------------------------HOME SECTION DESIGN*/
 
 #ferry {
     background-image: url(../images/ferry.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
-    border: 20px;
+    background-size: cover border: 20px;
 }
 
 /*--------------------------------WIN FORM*/
@@ -186,4 +182,17 @@ h3 {
 
 #photos img {
     width: 100%;
+}
+
+/*--------------------------------THINGS TO DO*/
+
+#left-todo {
+    padding: 30px;
+    width: 50%;
+}
+
+#right-todo {
+    padding: 30px;
+    width: 50%;
+
 }
