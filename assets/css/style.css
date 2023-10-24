@@ -9,22 +9,31 @@ body {
 
 .ui-menu-color-home {
     background-color: #9f2305;
-    padding: 30px;
+    padding: 0;
+    min-width: 114px;
+    max-width: 114px;
 }
 
 .ui-menu-color-todo {
     background-color: #aa2704;
-    padding: 30px;
+    padding: 0;
+    min-width: 114px;
+    max-width: 114px;
 }
 
 .ui-menu-color-pictures {
     background-color: #9a0200;
-    padding: 30px;
+    padding: 0;
+    min-width: 114px;
+    max-width: 114px;
 }
+
 
 .ui-menu-color-getaway {
     background-color: #850e04;
-    padding: 30px;
+    padding: 0;
+    min-width: 114px;
+    max-width: 114px;
 }
 
 #menu a :hover {
@@ -123,7 +132,7 @@ body {
     padding: 2rem;
 }
 
-.col-8>h3 {
+.col-8>h2 .h3 {
     color: #1e1666;
     text-align: center;
 }
@@ -158,7 +167,7 @@ body {
     margin-bottom: 40px;
 }
 
-h3 {
+h2 {
     font-family: 'Tilt Neon', sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -186,13 +195,19 @@ h3 {
 
 /*--------------------------------THINGS TO DO*/
 
-#left-todo {
-    padding: 30px;
-    width: 50%;
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
-#right-todo {
-    padding: 30px;
-    width: 50%;
 
+.left-container {
+    width: 30%;
+    display: flex;
+
+}
+
+.right-container {
+    width: 30%;
+    display: flex;
 }
