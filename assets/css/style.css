@@ -132,7 +132,7 @@ body {
     padding: 2rem;
 }
 
-.col-8>h2 .h3 {
+.col-8>h2>.h3 {
     color: #1e1666;
     text-align: center;
 }
