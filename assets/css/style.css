@@ -211,3 +211,16 @@ h2 {
     width: 30%;
     display: flex;
 }
+
+/*--------------------------------THANK YOU*/
+
+#received {
+    padding: 10px;
+    text-align: center;
+    color: #850e04;
+}
+
+.thanks {
+    text-align: center;
+    border-bottom: 50px;
+}
