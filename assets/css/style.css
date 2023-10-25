@@ -132,7 +132,7 @@ body {
     padding: 2rem;
 }
 
-.col-8>h2>.h3 {
+#welcome {
     color: #1e1666;
     text-align: center;
 }
@@ -143,7 +143,8 @@ body {
     background-image: url(../images/ferry.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover border: 20px;
+    background-size: cover;
+    border: 20px;
 }
 
 /*--------------------------------WIN FORM*/
@@ -204,30 +205,21 @@ h2 {
 }
 
 
-.left-container {
+.container2 {
     width: 30%;
     text-align: center;
-
 }
 
-.middle-container {
-    width: 30%;
+
+/*--------------------------------THANK YOU*/
+
+#received {
+    padding: 10px;
     text-align: center;
+    color: #850e04;
+}
 
-    .right-container {
-        width: 30%;
-        text-align: center;
-    }
-
-    /*--------------------------------THANK YOU*/
-
-    #received {
-        padding: 10px;
-        text-align: center;
-        color: #850e04;
-    }
-
-    .thanks {
-        text-align: center;
-        border-bottom: 50px;
-    }
+.thanks {
+    text-align: center;
+    border-bottom: 50px;
+}
