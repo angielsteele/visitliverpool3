@@ -208,6 +208,9 @@ h2 {
 .container2 {
     width: 30%;
     text-align: center;
+    border: #850e04;
+    border-style: solid;
+    color: #850e04;
 }
 
 
