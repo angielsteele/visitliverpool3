@@ -73,8 +73,51 @@
                 </nav>
 
             </div>
-        </div>
+
+
+            <!--W3S CODE FOR HAMBURGER MENU ONLY MOBILE AND TABLET-->
+
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a href="#home" class="active">Menu</a>
+                    <div id="myLinks">
+                        <a href="index.html">Home</a>
+                        <br>
+                        <a href="todo.html">To do</a>
+                        <br>
+                        <a href="pictures.html">Pictures</a>
+                        <br>
+                        <a href="win.html">Win!</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <div style="padding-left:16px">
+                </div>
+
+                <!-- End smartphone / tablet look -->
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+
+
     </header>
+
+
 
     <!--------------------------------Ferry picture -->
     <section>
