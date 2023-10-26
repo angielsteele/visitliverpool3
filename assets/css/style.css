@@ -104,6 +104,11 @@ a {
     font-size: 36px;
 }
 
+#social2 {
+    color: #fff;
+    font-size: 16px;
+}
+
 /*--------------------------------FOOTER*/
 
 footer {
@@ -113,6 +118,7 @@ footer {
     background-size: cover;
     min-height: 250px;
     margin-top: 5px;
+    position: relative;
 }
 
 /*--------------------------------TEXT DESIGN*/
@@ -233,13 +239,20 @@ h2 {
 /*--------------------------------MOBILE*/
 @media screen and (max-width: 800px) {
 
+    #welcome-section {
+        width: 65%;
+    }
+
     .text {
         font-size: 16px;
     }
 
+    footer>nav,
     #social2 {
         color: #fff;
         font-size: 12px;
+        position: absolute;
+        bottom: 0;
     }
 
     #socials {
@@ -254,8 +267,16 @@ h2 {
 /*--------------------------------TABLET*/
 @media screen and (max-width: 943px) {
 
-    .text {
-        font-size: 16px;
+    #welcome-section {
+        width: 100%;
+        height: 1200;
+        margin: 0 auto;
+        text-align: left;
+
+    }
+
+    #ferry {
+        background-size: cover;
     }
 
     #social2 {
@@ -266,9 +287,17 @@ h2 {
         display: none;
     }
 
+    #menu {
+        display: none;
+    }
+
     #photos {
         columns: 2;
     }
+
+
+
+
 }
 
 /*--------------------------------LAPTOPS*/
