@@ -17,6 +17,25 @@
     <title>Wirral and Liverpool</title>
 </head>
 
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div id="topnav" class="topnav">
+    <a href="index.html" class="active">Menu</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="todo.html">Things to do</a>
+        <a href="pictures.html">Pictures</a>
+        <a href="win.html">Win!</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
 <!----------------------------------Logo/menu/social media links-->
 
 
@@ -73,47 +92,6 @@
                 </nav>
 
             </div>
-
-
-            <!--W3S CODE FOR HAMBURGER MENU ONLY MOBILE AND TABLET-->
-
-            <!-- Simulate a smartphone / tablet -->
-            <div id="mobile" class="mobile-container">
-
-                <!-- Top Navigation Menu -->
-                <div class="topnav">
-                    <a href="index.html" class="active">Menu</a>
-                    <div id="myLinks">
-                        <a href="index.html">Home</a>
-                        <br>
-                        <a href="todo.html">To do</a>
-                        <br>
-                        <a href="pictures.html">Pictures</a>
-                        <br>
-                        <a href="win.html">Win!</a>
-                    </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-
-                <div style="padding-left:16px">
-                </div>
-
-                <!-- End smartphone / tablet look -->
-            </div>
-
-            <script>
-                function myFunction() {
-                    var x = document.getElementById("myLinks");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-            </script>
-
 
     </header>
 
