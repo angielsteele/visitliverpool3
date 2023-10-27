@@ -52,12 +52,12 @@ Merseymoods fills the above needs in the following ways:
 
 ### User Stories
 1 I expect to see local attractions in Merseyside.
-2 I am interested in winning a trip.
-3 I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
-4 I  would like to do some further research, so I expect to see links to attractions where I can find accurate information about prices and opening hours etc.
-5 I expect the site to be efficiently laid out and easy to navigate.
-6 I expect to be able to read the content without other things such as pictures obstructing the information.
-7 I expect the website to be accessible to people who require screen readers.
+1 I am interested in winning a trip.
+1 I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
+1 I  would like to do some further research, so I expect to see links to attractions where I can find accurate information about prices and opening hours etc.
+1 I expect the site to be efficiently laid out and easy to navigate.
+1 I expect to be able to read the content without other things such as pictures obstructing the information.
+1 I expect the website to be accessible to people who require screen readers.
 
 
 # Visual Design
