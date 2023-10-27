@@ -234,6 +234,8 @@ h2 {
 }
 
 
+/* Bootstrap navigation menu, taken from Bootstrap, not written by me */
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -294,18 +296,18 @@ function myFunction() {
 /*--------------------------------MEDIA*/
 
 /*--------------------------------LARGER SCREENS*/
-@media screen and (max-width: 1396px) {
+@media screen and (max-width: 1396px){
     #social2 {
         display: none;
     }
 
-    .topnav {
+    #topnav {
         display: none;
     }
 }
 
 /*--------------------------------LAPTOPS*/
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
 
     #social2 {
         display: none;
@@ -317,7 +319,7 @@ function myFunction() {
 }
 
 /*--------------------------------TABLET*/
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 943px){
 
     #welcome-section {
         width: 100%;
@@ -350,7 +352,7 @@ function myFunction() {
 }
 
 /*--------------------------------MOBILE*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
 
     #welcome-section {
         width: 65%;

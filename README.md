@@ -12,11 +12,11 @@ Merseymoods is a site designed to help prospective visitors to Merseyside know s
 Table of Contents
 
 
-UX
+# UX
 
-Goals
+## Goals
 
-Visitor goals
+### Visitor goals
 The aim for this site is to help visiors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
 - People who are undecided about whether they would like to visit the area.
 - People who may not have been to Merseyside before.
@@ -24,7 +24,7 @@ The aim for this site is to help visiors decide if they would like to visit Mers
 - People who would like to win a trip to the area.
 
 
-User goals
+### User goals
 - Easy to navigate.
 - Visuals that give the user an idea of what is available.
 - Ability to see additional information on attractions, if they wish.
@@ -33,6 +33,7 @@ User goals
 - Easy access to Social Media links.
 - Clear design that is easy to read.
 
+### Meeting the goals
 Merseymoods fills the above needs in the following ways:
 - Navigation is linked to all pages on the website.
 - Navigation buttons have the hover feature, to ensure the user knows where they are clicking before clicking it.
@@ -44,43 +45,53 @@ Merseymoods fills the above needs in the following ways:
 - Social Media links have been added, which open in a new tab.
 - Colours have been chosen so that they stand out. More information about this in the colours section of this document.
 
-Business goals
+### Business goals
 - Attract visitors to the area, therefor helping local economy.
 - Advertising local attractions to help businesses attract more customers.
 - Awareness of the local area and it's ammenities.
 
-User Stories
+### User Stories
 -- I expect to see local attractions in Merseyside.
 -- I am interested in winning a trip.
 -- I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
 -- I  would like to do some further research, so I expect to see links to attractions where I can find accurate information about prices and opening hours etc.
 -- I expect the site to be efficiently laid out and easy to navigate.
 -- I expect to be able to read the content without other things such as pictures obstructing the information.
--- I expect the website to be accessibble to people who require screen readers.
+-- I expect the website to be accessible to people who require screen readers.
 
 
-Visual Design
+# Visual Design
 
-Wireframes
+## Wireframes
 
-![Home Page](readme1.png)
-![Things to do](readme2.png)
-![Pictures](readme3.png)
-![Win a trip](readme4.png)
+![Home Page](./assets/images/readme1.png)
+![Things to do](./assets/images/readme2.png)
+![Pictures](../assets/images/readme3.png)
+![Win a trip](../assets/images/readme4.png)
 
 
-Fonts
+## Fonts
 
 All fonts were sourced from Google Fonts.
-- The primary font, which is used for the main body of the content is Josefin Sans (https://fonts.google.com/specimen/Josefin+Sans). It was chosen because it is a sans-serif font, is clear to read, however has some styling to make it stand out from other sites. I also feel it complements the text chosen for headers.
-- The secondary font, which is used for headers and the site logo is Tilt Neon (https://fonts.google.com/specimen/Tilt+Neon). It was chosen because it a sans-serif font that can be easily read, it also has a fun element to it. As I was going for a nautical theme, some of the letters, especially "o" looked like floatation devices, which I though matched the theme well.
+- The primary font, which is used for the main body of the content is [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans). It was chosen because it is a sans-serif font, is clear to read, however has some styling to make it stand out from other sites. I also feel it complements the text chosen for headers.
+- The secondary font, which is used for headers and the site logo is [Tilt Neon](https://fonts.google.com/specimen/Tilt+Neon). It was chosen because it a sans-serif font that can be easily read, it also has a fun element to it. As I was going for a nautical theme, some of the letters, especially "o" looked like floatation devices, which I though matched the theme well.
 
-Icons
+## Icons
+
+[FontAwesome](https://fontawesome.com/) has been used for the Social Media icons, and the icons for the menu items.
+The icons have been inserted using the <i> tag, and by using class names to identify styling for these icons. They have been inserted into the header and footer sections of the website, and have been amended based on the media that type used to view the webpage.
+
+## Colours
+
+[Colour template](./assets/images/readme5.png/)
+
+As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white. 
+
+## Imanges
+
+## Stytling
 
 
-
-ld 
-Welcome,
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this templaete as the basis for your project submissions.
 
