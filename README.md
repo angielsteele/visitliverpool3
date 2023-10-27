@@ -8,9 +8,12 @@ Merseymoods is a site designed to help prospective visitors to Merseyside know s
 - Picture gallery
 - Win a trip for 2
 
+----
 
-Table of Contents
+# Table of Contents
 
+
+----
 
 # UX
 
@@ -51,14 +54,15 @@ Merseymoods fills the above needs in the following ways:
 - Awareness of the local area and it's ammenities.
 
 ### User Stories
-1 I expect to see local attractions in Merseyside.
-1 I am interested in winning a trip.
-1 I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
-1 I  would like to do some further research, so I expect to see links to attractions where I can find accurate information about prices and opening hours etc.
-1 I expect the site to be efficiently laid out and easy to navigate.
-1 I expect to be able to read the content without other things such as pictures obstructing the information.
-1 I expect the website to be accessible to people who require screen readers.
+1. I expect to see local attractions in Merseyside.
+0. I am interested in winning a trip.
+0. I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
+0. I  would like to do some further research, so I expect to see links to attractions where I can find accurate information about prices and opening hours etc.
+0. I expect the site to be efficiently laid out and easy to navigate.
+0. I expect to be able to read the content without other things such as pictures obstructing the information.
+0. I expect the website to be accessible to people who require screen readers.
 
+----
 
 # Visual Design
 
@@ -83,7 +87,7 @@ The icons have been inserted using the <i> tag, and by using class names to iden
 
 ## Colours
 
-[Colour template](./assets/images/readme5.png)
+[Colour Template](./assets/images/readme5.png)
 
 As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white. 
 
@@ -91,40 +95,53 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Stytling
 
+----
+
+# Features
+
+## Page Elements
+
+## Additional features
+
+## Future Ideas
 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this templaete as the basis for your project submissions.
+----
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Technologies used
 
-## Codeanywhere Reminders
+## Languages
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Frameworks
 
-`python3 -m http.server`
+## Libaries
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Platforms
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Other Tools
 
-`http_server`
+----
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Testing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Methods
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Bugs
 
-To log into the Heroku toolbelt CLI:
+----
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Deployment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Local Deployment
 
----
+## Github Deployment
 
-Happy coding!
+----
+
+# Credit and contact
+
+## Credit
+
+## Contact
+
+
