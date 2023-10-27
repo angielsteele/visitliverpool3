@@ -66,8 +66,8 @@ Merseymoods fills the above needs in the following ways:
 
 ![Home Page](./assets/images/readme1.png)
 ![Things to do](./assets/images/readme2.png)
-![Pictures](../assets/images/readme3.png)
-![Win a trip](../assets/images/readme4.png)
+![Pictures](./assets/images/readme3.png)
+![Win a trip](./assets/images/readme4.png)
 
 
 ## Fonts
