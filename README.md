@@ -111,6 +111,9 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Future Ideas
 
+- Links to Social Media linked to specific places, rather than login page.
+- 
+
 ----
 
 # Technologies used
@@ -160,13 +163,22 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ### General Testing
 
-Testing was completed by myself, friends and family members. My mentor also helped me to ensure that I was complying with accessibility frameworks and stadards.
-I updated the social and menu div to nav to conform with html guidelines (as advised by my mentor).
-I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. This was advised by my mentor.  Accessibility issues altered as a result of this were the 'Social nav' to include sc-only for identifying the links due to only icons being used. The site also identified that I was not using correct semantic order for some headings.  I wanted to have a smaller heading, but was required to use h2 for correct ordering.  My mentor advised to use a h2 with a class of h3.
+- Testing was completed by myself, friends and family members. My mentor also helped me to ensure that I was complying with accessibility frameworks and stadards.
+- I updated the social and menu div to nav to conform with html guidelines (as advised by my mentor).
+- I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. This was advised by my mentor.  Accessibility issues altered as a result of this were the 'Social nav' to include sc-only for identifying the links due to only icons being used. The site also identified that I was not using correct semantic order for some headings.  I wanted to have a smaller heading, but was required to use h2 for correct ordering.  My mentor advised to use a h2 with a class of h3.
+- Family identied Social Media links not working, have checked the links and replaced with correct links.
+- Friends have identified some spelling errors, which have now been corrected.
 
 ### Mobile Testing
 
+- Family identied Social Media links not working, have checked the links and replaced with correct links.
+- Family identified that the Social Media links were dark blue on the footer and did not stand out. The media query did not work due to 2 competing queries, altered so that the text is white, and reduced the size for tablet and below.
+- Family identified that the pictures were not loading on the picture menu, this was due to Github link differing from CodeAnywhere. Changes so that they now work.
+
 ### Desktop Testing
+
+- Family identified that the pictures were not loading on the picture menu, this was due to Github link differing from CodeAnywhere. Changes so that they now work.
+- Family identified that the links for Social Media go to their login page. I have left this, as I wanted to demonstrate the links are working, just not to a specific place at the moment.
 
 ## Bugs
 
