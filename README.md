@@ -112,7 +112,8 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 ## Future Ideas
 
 - Links to Social Media linked to specific places, rather than login page.
-- 
+- Form allowing only one entry per email address, and a pop up message saying this.
+- Mobile device having hamburger menu instead of buttons.
 
 ----
 
@@ -179,6 +180,7 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 - Family identified that the pictures were not loading on the picture menu, this was due to Github link differing from CodeAnywhere. Changes so that they now work.
 - Family identified that the links for Social Media go to their login page. I have left this, as I wanted to demonstrate the links are working, just not to a specific place at the moment.
+- Self identified the active page was linked to the incorrect section on the home page, this has been corrected.
 
 ## Bugs
 
