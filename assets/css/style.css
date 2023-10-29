@@ -72,11 +72,12 @@ a {
 }
 
 #social {
+    float: right;
     list-style-type: none;
     margin-top: 20px;
     width: 200px;
     letter-spacing: 3px;
-    float: right;
+
 }
 
 
