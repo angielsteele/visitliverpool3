@@ -77,7 +77,6 @@ a {
     width: 200px;
     letter-spacing: 3px;
     float: right;
-    margin-right: 10px;
 }
 
 
@@ -234,12 +233,17 @@ h2 {
     border-bottom: 50px;
 }
 
-#dog {
-    max-width: 100px;
-    max-height: 100px;
-}
+
 
 /*--------------------------------MEDIA*/
+
+/*--------------------------------TABLET*/
+@media screen and (min-width: 1396px) {
+
+    #social2 {
+        display: none;
+    }
+}
 
 /*--------------------------------TABLET*/
 @media screen and (max-width: 1396px) {
@@ -264,9 +268,6 @@ h2 {
         display: none;
     }
 
-    #menu {
-        display: none;
-    }
 
     .main-text {
         padding: 0;
@@ -313,8 +314,6 @@ h2 {
 }
 
 
-
-
 /*--------------------------------MOBILE*/
 @media screen and (max-width: 943px) {
 
@@ -336,10 +335,6 @@ h2 {
     }
 
     #socials {
-        display: none;
-    }
-
-    #menu {
         display: none;
     }
 
@@ -411,5 +406,8 @@ h2 {
 
     }
 
+    .list-inline {
+        display: inline-block;
+    }
 
 }
