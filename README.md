@@ -70,6 +70,19 @@ Merseymoods fills the above needs in the following ways:
 
 ----
 
+# Adaptations from original concept
+
+## Colour scheme
+
+- Original colour scheme was intended to capture the rural nature of the location, green and blue
+- The blues and greens of the colour scheme were too similar in colour, and did not show a lot of definition for the navigation buttons, so I changed to the scheme that is now being used.
+
+## Design
+
+- The original design was to have a picture of the Liverbirds as a hero logo. Unfortunately, the picture was rectangle and not square, so I was unable to create the original rounded style using the border radius function. I opted to have a logo which was the name of the site, and a picture for the footer instead. The picture of the Liverbirds was then added to the gallery.
+
+----
+
 # Visual Design
 
 ## Wireframes
@@ -121,37 +134,37 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Languages
 
-- HTML
+- [HTML](w3.org/standards/webdesign/htmlcss)
   - Page markup
-- CSS
+- [CSS](w3.org/standards/webdesign/htmlcss)
   - Styling
 
 ## Frameworks
 
-- Bootstrap4
-  - Used for some basic styles and layout (body of the index.html)
+- [Bootstrap4](https://getbootstrap.com/)
+  - Used for some basic styles and layout (e.g. grid for body of the index.html)
 
 ## Libaries
 
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
   - For styling fonts
-- Fontawesome
+- [Fontawesome](https://fontawesome.com/)
   - Used for icons
 
 ## Platforms
 
-- Codeanywhere
+- [Codeanywhere](https://app.codeanywhere.com/)
   - IDE used to write code
-- Github
+- [Github](https://github.com/)
   - Used to store code remotely and for deployment
 
 ## Other Tools
 
-- Balsamiq
+- [Balsamiq](https://balsamiq.com/)
   - To create wireframes
-- Artboard studio
+- [PlaceIt](https://placeit.net/)
   - Used for devise mockup images
-- Coolors
+- [Coolors](https://coolors.co/)
   - Used for creating coloir pallettes
 
 ----
@@ -213,21 +226,26 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Credit
 
+- Original pictures taken by Nicholas Steele on an Android phone
+- Information about local area was paraphrased from sites they are linked to in the Things to do section
+
 ## Citations
 
-<https://news.sky.com/story/liverpool-resisters-criticised-for-anti-trans-sticker-stunt-on-crosby-beach-statues-11477713>
+[Mersey Ferry picture](https://www.merseyferries.co.uk/our-cruises/river-explorer-cruise/?gad_source=1&gclid=Cj0KCQjwhfipBhCqARIsAH9msbnVPrRMuwAd625CtTCUIyq1blvIOr2bZ6hhxRb9XX3jhAO5i1V3-QUaAoEnEALw_wcB)
 
-<https://www.liverpoolecho.co.uk/whats-on/reviews/mysterious-wirral-landmark-scenic-walk-24555855>
+[Crosby Beach picture](https://news.sky.com/story/liverpool-resisters-criticised-for-anti-trans-sticker-stunt-on-crosby-beach-statues-11477713)
 
-<https://en.wikipedia.org/wiki/Goodison_Park>
+[Thor's Rock picture](https://www.liverpoolecho.co.uk/whats-on/reviews/mysterious-wirral-landmark-scenic-walk-24555855)
 
-<https://www.liverpoolfc.com/info/anfield>
+[Goodison Park picture](https://en.wikipedia.org/wiki/Goodison_Park)
 
-<https://www.tripadvisor.co.uk/Attraction_Review-g227131-d1553149-Reviews-Dream-St_Helens_Merseyside_England.html>
+[Anfield picture](https://www.liverpoolfc.com/info/anfield)
 
-<https://www.cultureliverpool.co.uk/tall-ships-albert-dock-dublin/>
+[Dream picture](https://www.tripadvisor.co.uk/Attraction_Review-g227131-d1553149-Reviews-Dream-St_Helens_Merseyside_England.html)
 
-<https://en.wikipedia.org/wiki/Liverpool_Metropolitan_Cathedral>
+[Albert Dock picture](https://www.cultureliverpool.co.uk/tall-ships-albert-dock-dublin/)
+
+[Metropolitan Cathedral picture](https://en.wikipedia.org/wiki/Liverpool_Metropolitan_Cathedral)
 
 ## Contact
 
