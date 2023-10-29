@@ -119,21 +119,20 @@ footer {
     background-size: cover;
     min-height: 250px;
     margin-top: 5px;
-    width: 100% position: relative;
+    width: 100%;
+    position: relative;
 }
 
 /*--------------------------------TEXT DESIGN*/
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100px;
     font-size: 20px;
     color: #1e1666;
 }
 
 .main-text {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100px;
     font-size: 20px;
     color: #1e1666;
     padding: 2rem;
@@ -207,8 +206,6 @@ h2 {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    border: 0%;
-
 }
 
 
@@ -251,7 +248,7 @@ h2 {
 
     #welcome-section {
         width: 100%;
-        height: 1200;
+        height: 1200px;
         margin: 0 auto;
         text-align: center;
         font-size: small;
@@ -321,7 +318,7 @@ h2 {
 
     #welcome-section {
         width: 65%;
-        height: 1200;
+        height: 100%;
         margin: 0 auto;
         text-align: center;
         font-size: small;
