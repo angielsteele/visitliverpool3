@@ -1,8 +1,8 @@
-![Merseymoods Logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Merseymoods Logo](.assets/images/merseymoods.jpg)
 
-INSERT MOCK UP PICS HERE
+[Phone Mockup](.assets/images/mobile.png)
 
-Merseymoods is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
+[Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
 
 - Home page
 - Things to do
@@ -149,7 +149,7 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 - Balsamiq
   - To create wireframes
-- Mockup Generator
+- Artboard studio
   - Used for devise mockup images
 - Coolors
   - Used for creating coloir pallettes
@@ -201,9 +201,7 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ---
 
-# Deploymen
-
-- t
+# Deployment
 
 ## Local Deployment
 
