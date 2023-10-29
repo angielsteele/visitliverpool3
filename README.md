@@ -1,6 +1,6 @@
 ![Merseymoods Logo](./assets/images/merseymoods.jpg)
 
-[Phone Mockup](./assets/images/mobile.png)
+![Phone Mockup](./assets/images/mobile.png)
 
 [Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
 
@@ -93,7 +93,7 @@ The icons have been inserted using the <i> tag, and by using class names to iden
 
 ## Colours
 
-[Colour Template](./assets/images/readme5.png)
+![Colour Template](./assets/images/readme5.png)
 
 As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white.
 
