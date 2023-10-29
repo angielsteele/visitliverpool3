@@ -332,17 +332,40 @@ function myFunction() {
         margin: 0 auto;
     }
 
-    .col-8 {
-        margin-left: 50px;
-    }
-
     #photos {
         columns: 2;
     }
 
-    .win-form {
-        width: 30%;
+    .win-form-section {
         height: 30%;
+    }
+
+    #form,
+    #fname,
+    #lname,
+    #email,
+    #submit,
+    #reset {
+        position: relative;
+        line-height: normal;
+    }
+
+    #logo {
+        float: none;
+    }
+
+    #form,
+    h3 {
+        text-align: center;
+    }
+
+    #container {
+        --bs-gutter-x: 0;
+    }
+
+    .container2 {
+        width: 50%;
+        text-align: center;
     }
 
 }
@@ -350,19 +373,47 @@ function myFunction() {
 /*--------------------------------MOBILE*/
 @media screen and (max-width: 800px) {
 
+
+    #welcome-section {
+        width: 65%;
+        height: 1200;
+        margin: 0 auto;
+        text-align: center;
+        font-size: small;
+    }
+
+    #ferry {
+        display: none;
+    }
+
+    #social2 {
+        color: #fff;
+    }
+
+    #socials {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .main-text {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .col-8 {
+        margin-left: 50px;
+    }
+
+
     #welcome-section {
         width: 65%;
     }
 
     .text {
-        font-size: 16px;
-    }
-
-    footer>nav,
-    #social2 {
-        color: #fff;
-        font-size: 14px;
-        bottom: 0;
+        font-size: 12px;
     }
 
     #socials {
@@ -370,6 +421,48 @@ function myFunction() {
     }
 
     #photos {
-        columns: 2;
+        columns: 1;
+    }
+
+    .win-form-section {
+        height: 30%;
+    }
+
+    #form,
+    #fname,
+    #lname,
+    #email,
+    #submit,
+    #reset {
+        position: relative;
+        line-height: normal;
+    }
+
+    #logo {
+        float: none;
+    }
+
+    #form,
+    h3 {
+        margin-top: 1px;
+        text-align: center;
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    body {
+        line-height: normal;
+    }
+
+    #container {
+        --bs-gutter-x: 0;
+    }
+
+    .container2 {
+        width: 50%;
+        text-align: center;
+
     }
 }

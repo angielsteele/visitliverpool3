@@ -3,6 +3,7 @@
 INSERT MOCK UP PICS HERE
 
 Merseymoods is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
+
 - Home page
 - Things to do
 - Picture gallery
@@ -12,7 +13,6 @@ Merseymoods is a site designed to help prospective visitors to Merseyside know s
 
 # Table of Contents
 
-
 ----
 
 # UX
@@ -20,14 +20,16 @@ Merseymoods is a site designed to help prospective visitors to Merseyside know s
 ## Goals
 
 ### Visitor goals
+
 The aim for this site is to help visiors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
+
 - People who are undecided about whether they would like to visit the area.
 - People who may not have been to Merseyside before.
 - People who are keen to see what an area has to offer before making a journey.
 - People who would like to win a trip to the area.
 
-
 ### User goals
+
 - Easy to navigate.
 - Visuals that give the user an idea of what is available.
 - Ability to see additional information on attractions, if they wish.
@@ -37,11 +39,13 @@ The aim for this site is to help visiors decide if they would like to visit Mers
 - Clear design that is easy to read.
 
 ### Meeting the goals
+
 Merseymoods fills the above needs in the following ways:
+
 - Navigation is linked to all pages on the website.
 - Navigation buttons have the hover feature, to ensure the user knows where they are clicking before clicking it.
 - Navigation buttons have design styling to underline the page that is currently active.
-- Pictures of the area have been added to a specific pictures page. 
+- Pictures of the area have been added to a specific pictures page.
 - Links to additional webpages with attraction information (these pages are not affiliated with me). These pages open in a new tab to make it clear this is a different website.
 - The competition form is short and easy to use. An additional page to acknowledge submission was added at a later date, on recommendation of my mentor.
 - Information about the area is available on the home page and the Things to do page.
@@ -49,11 +53,13 @@ Merseymoods fills the above needs in the following ways:
 - Colours have been chosen so that they stand out. More information about this in the colours section of this document.
 
 ### Business goals
+
 - Attract visitors to the area, therefor helping local economy.
 - Advertising local attractions to help businesses attract more customers.
 - Awareness of the local area and it's ammenities.
 
 ### User Stories
+
 1. I expect to see local attractions in Merseyside.
 0. I am interested in winning a trip.
 0. I am not familiar with Merseyside, so I expect to see photographs showing different aspects of the area.
@@ -73,10 +79,10 @@ Merseymoods fills the above needs in the following ways:
 ![Pictures](./assets/images/readme3.png)
 ![Win a trip](./assets/images/readme4.png)
 
-
 ## Fonts
 
 All fonts were sourced from Google Fonts.
+
 - The primary font, which is used for the main body of the content is [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans). It was chosen because it is a sans-serif font, is clear to read, however has some styling to make it stand out from other sites. I also feel it complements the text chosen for headers.
 - The secondary font, which is used for headers and the site logo is [Tilt Neon](https://fonts.google.com/specimen/Tilt+Neon). It was chosen because it a sans-serif font that can be easily read, it also has a fun element to it. As I was going for a nautical theme, some of the letters, especially "o" looked like floatation devices, which I though matched the theme well.
 
@@ -89,7 +95,7 @@ The icons have been inserted using the <i> tag, and by using class names to iden
 
 [Colour Template](./assets/images/readme5.png)
 
-As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white. 
+As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white.
 
 ## Images
 
@@ -104,7 +110,6 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 ## Additional features
 
 ## Future Ideas
-
 
 ----
 
@@ -170,17 +175,21 @@ I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. 
 - Nav bar is not central in the middle of the screen when seen on larger screen sizes
 
 ### Fixed bugs
+
 - Logo was on right hand side, I wanted it to the left, used Chrome dev tools to solve the issue by giving the container a margin: 0;
 - I wanted my font awesome images to be in the middle of the menus at the top of the page, I used W3schools.com to find the solution to add text-align: center; to my .hometag class
 - The menu buttons were originally on separate lines, and there were large gaps between them, I used a combination of Codeinstitute Bootstrap mini-project instructions and chrome dev tools to include .list-inline-item:not(:last-child) {margin-right: 0;} Which solved the issue
 - I wanted my navaigation menu to be uniform in size, my mentor suggested setting the padding to 0, and using min-width and max-width. This solved this issue.
 - There was a blue line underneath all of the menu items, dev tools helped me to discover that it was an inherited feature from the anchor tag. Created a css rule to take away the text-decoration from the a tag
 - In the to do section I wanted to have several of the attractions on the same line when viewing on a tablet and above. I initially tried to use floating, which led to incorrect positioning of some of the text. My mentor suggested using flexbox. I used [Css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to solve this issue, and learn more about flexbox.
+- On mobile view the main text for the home page not centred, adjusted the margin-left to 50px to counteract this.
+- Logo was ontop of the form in the win section, useing dev tools I found that float:none solved this.
 
+---
 
-----
+# Deploymen
 
-# Deployment
+- t
 
 ## Local Deployment
 
@@ -211,4 +220,3 @@ I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. 
 ## Contact
 
 Please feel free to contact me at angelalsteele@hotmail.com
-
