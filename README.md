@@ -1,6 +1,6 @@
-![Merseymoods Logo](.assets/images/merseymoods.jpg)
+![Merseymoods Logo](.assets/images/merseymoods.jpg/)
 
-[Phone Mockup](.assets/images/mobile.png)
+[Phone Mockup](.assets/images/mobile.png/)
 
 [Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
 
