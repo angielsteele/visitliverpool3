@@ -112,13 +112,38 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Languages
 
+- HTML
+  - Page markup
+- CSS
+  - Styling
+
 ## Frameworks
+
+- Bootstrap4
+  - Used for some basic styles and layout (body of the index.html)
 
 ## Libaries
 
+- Google Fonts
+  - For styling fonts
+- Fontawesome
+  - Used for icons
+
 ## Platforms
 
+- Codeanywhere
+  - IDE used to write code
+- Github
+  - Used to store code remotely and for deployment
+
 ## Other Tools
+
+- Balsamiq
+  - To create wireframes
+- Mockup Generator
+  - Used for devise mockup images
+- Coolors
+  - Used for creating coloir pallettes
 
 ----
 
@@ -126,7 +151,32 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Methods
 
+### Validation
+
+### General Testing
+
+Testing was completed by myself, friends and family members. My mentor also helped me to ensure that I was complying with accessibility frameworks and stadards.
+I updated the social and menu div to nav to conform with html guidelines (as advised by my mentor).
+I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. This was advised by my mentor.  Accessibility issues altered as a result of this were the 'Social nav' to include sc-only for identifying the links due to only icons being used. The site also identified that I was not using correct semantic order for some headings.  I wanted to have a smaller heading, but was required to use h2 for correct ordering.  My mentor advised to use a h2 with a class of h3.
+
+### Mobile Testing
+
+### Desktop Testing
+
 ## Bugs
+
+### Known Bugs
+
+- Nav bar is not central in the middle of the screen when seen on larger screen sizes
+
+### Fixed bugs
+- Logo was on right hand side, I wanted it to the left, used Chrome dev tools to solve the issue by giving the container a margin: 0;
+- I wanted my font awesome images to be in the middle of the menus at the top of the page, I used W3schools.com to find the solution to add text-align: center; to my .hometag class
+- The menu buttons were originally on separate lines, and there were large gaps between them, I used a combination of Codeinstitute Bootstrap mini-project instructions and chrome dev tools to include .list-inline-item:not(:last-child) {margin-right: 0;} Which solved the issue
+- I wanted my navaigation menu to be uniform in size, my mentor suggested setting the padding to 0, and using min-width and max-width. This solved this issue.
+- There was a blue line underneath all of the menu items, dev tools helped me to discover that it was an inherited feature from the anchor tag. Created a css rule to take away the text-decoration from the a tag
+- In the to do section I wanted to have several of the attractions on the same line when viewing on a tablet and above. I initially tried to use floating, which led to incorrect positioning of some of the text. My mentor suggested using flexbox. I used [Css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to solve this issue, and learn more about flexbox.
+
 
 ----
 
@@ -138,10 +188,27 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ----
 
-# Credit and contact
+# Credit, citations and contact
 
 ## Credit
 
+## Citations
+
+<https://news.sky.com/story/liverpool-resisters-criticised-for-anti-trans-sticker-stunt-on-crosby-beach-statues-11477713>
+
+<https://www.liverpoolecho.co.uk/whats-on/reviews/mysterious-wirral-landmark-scenic-walk-24555855>
+
+<https://en.wikipedia.org/wiki/Goodison_Park>
+
+<https://www.liverpoolfc.com/info/anfield>
+
+<https://www.tripadvisor.co.uk/Attraction_Review-g227131-d1553149-Reviews-Dream-St_Helens_Merseyside_England.html>
+
+<https://www.cultureliverpool.co.uk/tall-ships-albert-dock-dublin/>
+
+<https://en.wikipedia.org/wiki/Liverpool_Metropolitan_Cathedral>
+
 ## Contact
 
+Please feel free to contact me at angelalsteele@hotmail.com
 
