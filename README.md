@@ -1,4 +1,4 @@
-[Merseymoods Logo](./assets/images/merseymoods.jpg)
+![Merseymoods Logo](./assets/images/merseymoods.jpg)
 
 ![Phone Mockup](./assets/images/mobile.png)
 
