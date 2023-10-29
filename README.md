@@ -150,7 +150,7 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 ## Images
 
-![Colour Template](./assets/images/images.png)
+![Site Images](./assets/images/images.jpg)
 
 Images have been used to show the visitor a glimpse into the local area, and allow them to make an informed decision to whether Merseyside is somewhere they would like to visit. Images sourced from the internet and unique images taken by my husband have been used in the picture gallery.
 
