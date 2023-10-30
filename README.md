@@ -138,7 +138,7 @@ All fonts were sourced from Google Fonts.
 
 [FontAwesome](https://fontawesome.com/) has been used for the Social Media icons, and the icons for the menu items.
 
-![Font Awesome](./assets/images/fontawesome.jpg)
+![Font Awesome](./assets/images/font-awesome.jpg)
 
 The icons have been inserted using the <i> tag, and by using class names to identify styling for these icons. They have been inserted into the header and footer sections of the website, and have been amended based on the media  type used to view the webpage.
 
@@ -292,12 +292,16 @@ Styling within media queries was used to ensure that the page was not too clutte
 ### Validation
 
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+  
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+  
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 ### General Testing
 
 - Testing was completed by myself, friends and family members. My mentor also helped me to ensure that I was complying with accessibility frameworks and stadards.
+
+- Testing has taken place using multiple devices and multiple different operating systems (IOS and Android).
 
 - I updated the social and menu div to nav to conform with html guidelines (as advised by my mentor).
 
@@ -329,6 +333,8 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - Nav bar is not central in the middle of the screen when seen on larger screen sizes
 
+- On Samsung internet, the background colour is dark blue, rather than light blue.
+
 ### Fixed bugs
 
 - Logo was on right hand side, I wanted it to the left, used Chrome dev tools to solve the issue by giving the container a margin: 0;
@@ -353,8 +359,32 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 ## Local Deployment
 
+### Requirements
+- IDE of your choice, I used [CodeAnywhere](https://app.codeanywhere.com/)
+
+### Instructions
+- Clone or download a copy of [Merseymoods](https://github.com/angielsteele/visitliverpool3)
+
+- 
 ## Github Deployment
 
+### Requirements
+- A free [GitHub](https://github.com/) account
+
+### Instructions
+- Login to your GitHub account
+
+- Navigate to [Merseymoods](https://github.com/angielsteele/visitliverpool3)
+
+- Click on "Code", then "Local"
+
+- Clone the repository
+
+- Add any necessary changes or files
+
+- "git add", "git commit" and "git push" your changes if necessary
+
+- Is should now be live for viewing
 ----
 
 # Credit, citations and contact
