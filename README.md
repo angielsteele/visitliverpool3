@@ -73,7 +73,7 @@
 
 ### Visitor goals
 
-The aim for this site is to help visiors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
+The aim for this site is to help visitors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
 
 - People who are undecided about whether they would like to visit the area.
 
@@ -127,7 +127,7 @@ Merseymoods fills the above needs in the following ways:
 
 - Advertising local attractions to help businesses attract more customers.
 
-- Awareness of the local area and it's ammenities.
+- Awareness of the local area and it's amenities.
 
 ### User Stories
 
@@ -195,7 +195,7 @@ The icons have been inserted using the <i> tag, and by using class names to iden
 
 ![Colour Template](./assets/images/readme5.png)
 
-As Mersyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite to blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white.
+As Merseyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite to blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white.
 
 ## Images
 
@@ -203,17 +203,17 @@ As Mersyside is located on the Mersey estuary, I wanted the design to be nautica
 
 Images have been used to show the visitor a glimpse into the local area, and allow them to make an informed decision to whether Merseyside is somewhere they would like to visit. Images sourced from the internet and unique images taken by my husband have been used in the picture gallery.
 
-Where the screensize is larger, you can see the images as a collage, however the images in smaller screen resolutions has been reduced to one column, so that the pictures are not too small to be seen on the smaller screens.
+Where the screen size is larger, you can see the images as a collage, however the images in smaller screen resolutions has been reduced to one column, so that the pictures are not too small to be seen on the smaller screens.
 
 As some of the pictures were taken using a mobile phone camera, some of the pictures have a granular aspect to them. This is an area of improvement for future versions of the website.
 
-## Stytling
+## Styling
 
-Menu items were styled using Bootstrap4, and all colours defined in the CSS so that they are consistant throughout.
-Bootstrap4 was also utalised to assist with screen reader information, expcially for links such as Social Media links.
-Boostrap was also pivitol to assist with alignment that I required for the main body of the home page, and also the navigation elements. I wanted to ensure that the home page had a grid design of col-8/col-4 so that the text was the focal point, but an image would complement it.
+Menu items were styled using Bootstrap4, and all colours defined in the CSS so that they are consistent throughout.
+Bootstrap4 was also utilised to assist with screen reader information, especially for links such as Social Media links.
+Boostrap was also pivotal to assist with alignment that I required for the main body of the home page, and also the navigation elements. I wanted to ensure that the home page had a grid design of col-8/col-4 so that the text was the focal point, but an image would complement it.
 Flexbox was used to add the things to do section to a clear grid format, that was adaptable for all media types easily by changing the width within the media queries.
-Styling within media queries was used to ensure that the page was not too cluttered with the Social media icons at the top. In the smaller screen sizes, the Social Media links are seen in the footer, rtther than the header.
+Styling within media queries was used to ensure that the page was not too cluttered with the Social media icons at the top. In the smaller screen sizes, the Social Media links are seen in the footer, rather than the header.
 
 ----
 
@@ -233,26 +233,26 @@ Styling within media queries was used to ensure that the page was not too clutte
 #### Footer
 
 - The footer consists of a picture to decorate the bottom of the screen
-- The footer picture is reletive, so it does not matter the size of the screen, you see the full width of the landscape picture
+- The footer picture is relative, so it does not matter the size of the screen, you see the full width of the landscape picture
 - In smaller resolutions, the footer also contains a smaller version of the Social Media icons, which are presented in white to stand out on the image
-- The footer is consistant across all pages
+- The footer is consistent across all pages
 
 #### Home page
 
 - The body of the home page consists of information about Merseyside.
-- In larger resolutions, the user will also see a picture of the Mersey Ferry on the left hand side of the page, this was removed for smaller screensizes, to ensure text was legible.
+- In larger resolutions, the user will also see a picture of the Mersey Ferry on the left hand side of the page, this was removed for smaller screen sizes, to ensure text was legible.
 
 #### Things to do
 
 - The body of the things to do section consists of a flexbox with 33% positioning, so that 3 attractions can be seen.
-- The things to do section also has links for futher information on pages not affilitated with me. These display on new tabs using, to seperate my content with the other website content.
+- The things to do section also has links for further information on pages not affiliated with me. These display on new tabs using, to separate my content with the other website content.
 - A border was used to help the user identify the different attractions that were available in the area.
 
 #### Pictures
 
 - The picture section has an array of different pictures, some sourced from the internet (see citations) and others taken by my husband.
-- In the laeger screen resolutions, the pictures can be seen in columns of 4, however the smaller resolutions only one column with 100% image size.
-- For future iterations, I would like or the user to be able to click on the picture for a larger view on a seperate tab.
+- In the larger screen resolutions, the pictures can be seen in columns of 4, however the smaller resolutions only one column with 100% image size.
+- For future iterations, I would like or the user to be able to click on the picture for a larger view on a separate tab.
 
 #### Win a getaway
 
@@ -298,7 +298,7 @@ Styling within media queries was used to ensure that the page was not too clutte
 
   - Used for some basic styles and layout (e.g. grid for body of the index.html)
 
-## Libaries
+## Libraries
 
 - [Google Fonts](https://fonts.google.com/)
 
@@ -330,7 +330,7 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - [Coolors](https://coolors.co/)
 
-  - Used for creating coloir pallettes
+  - Used for creating colour palettes
 
 ----
 
@@ -356,13 +356,13 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - I used [Page speed](https://pagespeed.web.dev/) to assess accessibility issues. This was advised by my mentor.  Accessibility issues altered as a result of this were the 'Social nav' to include sc-only for identifying the links due to only icons being used. The site also identified that I was not using correct semantic order for some headings.  I wanted to have a smaller heading, but was required to use h2 for correct ordering.  My mentor advised to use a h2 with a class of h3.
 
-- Family identied Social Media links not working, have checked the links and replaced with correct links.
+- Family identified Social Media links not working, have checked the links and replaced with correct links.
 
 - Friends have identified some spelling errors, which have now been corrected.
 
 ### Mobile Testing
 
-- Family identied Social Media links not working, have checked the links and replaced with correct links.
+- Family identified Social Media links not working, have checked the links and replaced with correct links.
 
 - Family identified that the Social Media links were dark blue on the footer and did not stand out. The media query did not work due to 2 competing queries, altered so that the text is white, and reduced the size for tablet and below.
 
@@ -392,7 +392,7 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - The menu buttons were originally on separate lines, and there were large gaps between them, I used a combination of Codeinstitute Bootstrap mini-project instructions and chrome dev tools to include .list-inline-item:not(:last-child) {margin-right: 0;} Which solved the issue
 
-- I wanted my navaigation menu to be uniform in size, my mentor suggested setting the padding to 0, and using min-width and max-width. This solved this issue.
+- I wanted my navigation menu to be uniform in size, my mentor suggested setting the padding to 0, and using min-width and max-width. This solved this issue.
 
 - There was a blue line underneath all of the menu items, dev tools helped me to discover that it was an inherited feature from the anchor tag. Created a css rule to take away the text-decoration from the a tag
 
@@ -400,7 +400,7 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - On mobile view the main text for the home page not centred, adjusted the margin-left to 50px to counteract this.
 
-- Logo was ontop of the form in the win section, useing dev tools I found that float:none solved this.
+- Logo was on top of the form in the win section, using dev tools I found that float:none solved this.
 
 ---
 
