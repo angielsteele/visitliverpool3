@@ -16,6 +16,55 @@
 
 # Table of Contents
 
+- UX
+  - Goals
+    - Visitor Goals
+    - User Goals
+    - Meeting the Goals
+    - Business Goals
+    - User Stories
+- Adaptions from original concept
+  - Colour scheme
+  - Design
+- Visual Design
+ - Wireframes
+ - Fonts
+ - Icons
+ - Colours
+ - Images
+ - Styling
+- Features
+ - Page elements
+  - All pages
+   - Navbar
+   - Footer
+   - Home
+   - Things to do
+   - Pictures
+   - Win a getaway
+- Additional features
+  - Thank you page
+- Future Ideas
+- Technologies used
+  - Language
+  - Frameworks
+  - Libraries
+  - Platforms
+  - Other tools
+- Testing
+  - Methods
+    - Validation
+    - General Testing
+    - Mobile Testing
+    - Desktop testing
+- Bugs
+  - Known
+  - Fixed
+- Deployment
+  - Github
+  - Run locally
+-Credit, citations and contact
+
 ----
 
 # UX
