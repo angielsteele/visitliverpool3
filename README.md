@@ -357,34 +357,38 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 # Deployment
 
-## Local Deployment
-
-### Requirements
-- IDE of your choice, I used [CodeAnywhere](https://app.codeanywhere.com/)
-
-### Instructions
-- Clone or download a copy of [Merseymoods](https://github.com/angielsteele/visitliverpool3)
-
-- 
 ## Github Deployment
 
-### Requirements
-- A free [GitHub](https://github.com/) account
+### IDE
+- IDE of your choice, I used [CodeAnywhere](https://app.codeanywhere.com/)
 
-### Instructions
+### Deploy from Github
 - Login to your GitHub account
 
-- Navigate to [Merseymoods](https://github.com/angielsteele/visitliverpool3)
+- Find the repository angielsteele/visitliverpool3
 
-- Click on "Code", then "Local"
+- Select settings (near the top of the screen) and select the "Pages" section on the left hand side
+
+- Under "source" select deploy from a branch
+
+- At the top of the section you will be the link to the deployed site
+
+### Run locally
+- Clone a copy of [Merseymoods](https://github.com/angielsteele/visitliverpool3)
+
+- Click on "Code", then "HTTPS"
 
 - Clone the repository
 
-- Add any necessary changes or files
+- Copy the repository URL
 
-- "git add", "git commit" and "git push" your changes if necessary
+- Open your IDE of choice
 
-- Is should now be live for viewing
+- Change the directory to the new space
+
+- Create the new repository
+
+
 ----
 
 # Credit, citations and contact
