@@ -36,7 +36,7 @@ body {
     max-width: 114px;
 }
 
-#menu a :hover {
+.menu a :hover {
     background-color: #fff;
     color: #850e04;
 }
@@ -71,7 +71,7 @@ a {
     margin-left: 10px;
 }
 
-#social {
+.social {
     float: right;
     list-style-type: none;
     margin-top: 20px;
@@ -100,7 +100,7 @@ a {
     text-align: center;
 }
 
-#socials {
+.social-media {
     color: #1e1666;
     font-size: 36px;
 }
