@@ -7,6 +7,10 @@ body {
     background-color: #92BBFF;
 }
 
+p {
+    font-weight: 700;
+}
+
 .ui-menu-color-home {
     background-color: #9f2305;
     padding: 0;
