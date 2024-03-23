@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- ------------------------------Head -->
+  <!-- ------------------------------Head -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover what Merseyside has to offer!">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover what Merseyside has to offer!" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Wirral and Liverpool</title>
-</head>
-<!----------------------------------Logo/menu/social media links-->
+  </head>
+  <!----------------------------------Logo/menu/social media links-->
 
-<body>
-    <header>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="todo.html"
+              >Things to do<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pictures.html">Pictures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="win.html">Win a getaway</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown link
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <header>
         <div>
             <div>
                 <a href="index.html">
@@ -57,91 +114,159 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </header> -->
     <!----------------------------------To do flex boxes-->
     <section>
-        <div class="container">
-            <div class="container2">
-                <h2 id="welcome" class="h3">The Cavern Club</h2>
-                <br>
-                <p>The Cavern Club is one of the most iconic scenes in Liverpool.</p>
-                <p>Many famous bands and singers have started off their careers here. It is a must see for anyone
-                    visiting the area!</p>
-                <p>For more information about the Cavern Club, see it's dedicated website.</p> <a
-                    href="https://www.cavernclub.com/" target="_blank">The Cavern Club Website</a>
-            </div>
-            <div class="container2">
-                <h2 id="welcome" class="h3">Albert Dock</h2>
-                <br>
-                <p>The Royal Albert Dock has an array of restaurants, bars and cultural attractions.</p>
-                <p>Here you can enjoy The Beatles Story, The International Slavery museum, The Maritime museum and the
-                    Liverpool Tate.</p>
-                <p>For more information about the Royal Albert Dock, see it's dedicated website.</p> <a
-                    href="https://albertdock.com/" target="_blank">The Albert Dock Website</a>
-            </div>
-            <br>
-            <div class="container2">
-                <h2 id="welcome" class="h3">Liver Building Tour</h2>
-                <br>
-                <p>Not for those with a fear of heights!</p>
-                <p>Enjoy the picturesque views over Liverpool and Wirral, by taking a trip up the Liver Building on one
-                    of the daily tours.</p>
-                <p>You will learn facts about the Liver Building and see it from a completely different perspective on
-                    this guided tour.</p>
-                <p>For more information about the Liver Building tours, see it's dedicated website.</p> <a
-                    href="https://rlb360.com/?gclid=CjwKCAjw-eKpBhAbEiwAqFL0ml1kgi6Jt8T3NPE2Q9YA1jaCWRDGtvQvL2huWOyRyG4I3nEXvGJv0xoCjQQQAvD_BwE"
-                    target="_blank">The Liver Building Tours Website</a>
-            </div>
+      <div class="container">
+        <div class="container2">
+          <h2 id="welcome" class="h3">The Cavern Club</h2>
+          <br />
+          <p>The Cavern Club is one of the most iconic scenes in Liverpool.</p>
+          <p>
+            Many famous bands and singers have started off their careers here.
+            It is a must see for anyone visiting the area!
+          </p>
+          <p>
+            For more information about the Cavern Club, see it's dedicated
+            website.
+          </p>
+          <a href="https://www.cavernclub.com/" target="_blank"
+            >The Cavern Club Website</a
+          >
         </div>
-        <div class="container">
-            <div class="container2">
-                <h2 id="welcome" class="h3">Hilbre Island</h2>
-                <br>
-                <p>Hilbre Island is found in West Kirby, Wirral. It is a small island, that can be visited by foot.</p>
-                <p>Explore the rockpools, find crabs and other creatures as you walk to the island. Be careful to check
-                    the tidal information before you begin.</p>
-                <p>For more information about Hilbre Island, see it's dedicated website.</p> <a
-                    href="http://www.hilbre-island.co.uk/" target="_blank">The Hilbre Island Website</a>
-            </div>
-            <div class="container2">
-                <h2 id="welcome" class="h3">St George's Hall</h2>
-                <br>
-                <p>St George's Hall can be found in Liverpool city centre.</p>
-                <p>St George's Hall is a grade 1 listed building. A quote from BBC Archives said “…possibly the only
-                    building where you could be tried for murder, have a ball or listen to a concert all under one
-                    roof.”</p>
-                <p>For more information about St George's Hall, see it's dedicated website.</p> <a
-                    href="https://www.stgeorgeshallliverpool.co.uk/" target="_blank">The St George's Hall website</a>
-            </div>
-            <div class="container2">
-                <h2 id="welcome" class="h3">Dream</h2>
-                <br>
-                <p>The Dream sculpture can be found in St Helens, just a half hour drive from Liverpool.</p>
-                <p>Dream is a sculpture that was commissioned by ex-miners and St Helens Council. It is 20 metres high
-                    and was made to honour the human heritage of the site.</p>
-                <p>For more information about Dream, see it's dedicated website.</p> <a
-                    href="https://www.dreamsthelens.com/" target="_blank">The Dream Website</a>
-            </div>
+        <div class="container2">
+          <h2 id="welcome" class="h3">Albert Dock</h2>
+          <br />
+          <p>
+            The Royal Albert Dock has an array of restaurants, bars and cultural
+            attractions.
+          </p>
+          <p>
+            Here you can enjoy The Beatles Story, The International Slavery
+            museum, The Maritime museum and the Liverpool Tate.
+          </p>
+          <p>
+            For more information about the Royal Albert Dock, see it's dedicated
+            website.
+          </p>
+          <a href="https://albertdock.com/" target="_blank"
+            >The Albert Dock Website</a
+          >
         </div>
+        <br />
+        <div class="container2">
+          <h2 id="welcome" class="h3">Liver Building Tour</h2>
+          <br />
+          <p>Not for those with a fear of heights!</p>
+          <p>
+            Enjoy the picturesque views over Liverpool and Wirral, by taking a
+            trip up the Liver Building on one of the daily tours.
+          </p>
+          <p>
+            You will learn facts about the Liver Building and see it from a
+            completely different perspective on this guided tour.
+          </p>
+          <p>
+            For more information about the Liver Building tours, see it's
+            dedicated website.
+          </p>
+          <a
+            href="https://rlb360.com/?gclid=CjwKCAjw-eKpBhAbEiwAqFL0ml1kgi6Jt8T3NPE2Q9YA1jaCWRDGtvQvL2huWOyRyG4I3nEXvGJv0xoCjQQQAvD_BwE"
+            target="_blank"
+            >The Liver Building Tours Website</a
+          >
+        </div>
+      </div>
+      <div class="container">
+        <div class="container2">
+          <h2 id="welcome" class="h3">Hilbre Island</h2>
+          <br />
+          <p>
+            Hilbre Island is found in West Kirby, Wirral. It is a small island,
+            that can be visited by foot.
+          </p>
+          <p>
+            Explore the rockpools, find crabs and other creatures as you walk to
+            the island. Be careful to check the tidal information before you
+            begin.
+          </p>
+          <p>
+            For more information about Hilbre Island, see it's dedicated
+            website.
+          </p>
+          <a href="http://www.hilbre-island.co.uk/" target="_blank"
+            >The Hilbre Island Website</a
+          >
+        </div>
+        <div class="container2">
+          <h2 id="welcome" class="h3">St George's Hall</h2>
+          <br />
+          <p>St George's Hall can be found in Liverpool city centre.</p>
+          <p>
+            St George's Hall is a grade 1 listed building. A quote from BBC
+            Archives said “…possibly the only building where you could be tried
+            for murder, have a ball or listen to a concert all under one roof.”
+          </p>
+          <p>
+            For more information about St George's Hall, see it's dedicated
+            website.
+          </p>
+          <a href="https://www.stgeorgeshallliverpool.co.uk/" target="_blank"
+            >The St George's Hall website</a
+          >
+        </div>
+        <div class="container2">
+          <h2 id="welcome" class="h3">Dream</h2>
+          <br />
+          <p>
+            The Dream sculpture can be found in St Helens, just a half hour
+            drive from Liverpool.
+          </p>
+          <p>
+            Dream is a sculpture that was commissioned by ex-miners and St
+            Helens Council. It is 20 metres high and was made to honour the
+            human heritage of the site.
+          </p>
+          <p>For more information about Dream, see it's dedicated website.</p>
+          <a href="https://www.dreamsthelens.com/" target="_blank"
+            >The Dream Website</a
+          >
+        </div>
+      </div>
     </section>
     <footer>
-        <nav>
-            <ul>
-                <li class="list-inline-item"> <a target="_blank" href="https://en-gb.facebook.com/"><span
-                            class="sr-only">Facebook</span><i id="social2" class="fa fa-facebook"
-                            aria-hidden="true"></i></a> <span class="sr-only">Facebook</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://twitter.com/?lang=en"><span
-                            class="sr-only">Twitter</span><i id="social2" class="fa fa-twitter"
-                            aria-hidden="true"></i></a> <span class="sr-only">Twitter</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://www.instagram.com/"><span
-                            class="sr-only">Instagram</span><i id="social2" class="fa fa-instagram"
-                            aria-hidden="true"></i></a> <span class="sr-only">Instagram</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://www.youtube.com/"><span
-                            class="sr-only">Youtube</span><i id="social2" class="fa fa-youtube"
-                            aria-hidden="true"></i></a> <span class="sr-only">Youtube</span> </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://en-gb.facebook.com/"
+              ><span class="sr-only">Facebook</span
+              ><i id="social2" class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Facebook</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/?lang=en"
+              ><span class="sr-only">Twitter</span
+              ><i id="social2" class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Twitter</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/"
+              ><span class="sr-only">Instagram</span
+              ><i id="social2" class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Instagram</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.youtube.com/"
+              ><span class="sr-only">Youtube</span
+              ><i id="social2" class="fa fa-youtube" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Youtube</span>
+          </li>
+        </ul>
+      </nav>
     </footer>
-</body>
-
+  </body>
 </html>

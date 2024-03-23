@@ -1,22 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- ------------------------------Head -->
+  <!-- ------------------------------Head -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover what Merseyside has to offer!">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover what Merseyside has to offer!" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Wirral and Liverpool</title>
-</head>
-<!----------------------------------Logo/menu/social media links-->
+  </head>
+  <!----------------------------------Logo/menu/social media links-->
 
-<body>
-    <header>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="todo.html">Things to do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pictures.html"
+              >Pictures<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="win.html">Win</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown link
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <header>
         <div>
             <div>
                 <a href="index.html">
@@ -57,37 +114,66 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </header> -->
     <!----------------------------------Gallery-->
-    <section id="photos" class="align-items-center"> <img src="./assets/images/cathedral.jpg"
-            alt="Anglican Cathedral, Liverpool"> <img src="./assets/images/liverpool.jpg" alt="Skyline Liverpool"> <img
-            src="./assets/images/liverbird.jpg" alt="Liverbirds"> <img src="./assets/images/dock.jpg"
-            alt="Ferry terminal, Liverpool"> <img src="./assets/images/anfield.jpeg" alt="Anfield Stadium, Liverpool">
-        <img src="./assets/images/goodison.jpeg" alt="Goodison Park, Liverpool"> <img src="./assets/images/dream.jpeg"
-            alt="Dream sculpture, St Helens"> <img src="./assets/images/thor.jpeg"
-            alt="Thor's Rock, Thurstaston, Wirral"> <img src="./assets/images/crosby.jpeg"
-            alt="Figures on Crosby Beach"> <img src="./assets/images/wigwam.jpeg"
-            alt="Metropolitan Cathedral, Liverpool"> <img src="./assets/images/albert.jpeg"
-            alt="Albert Dock, Liverpool">
+    <section id="photos" class="align-items-center">
+      <img
+        src="./assets/images/cathedral.jpg"
+        alt="Anglican Cathedral, Liverpool"
+      />
+      <img src="./assets/images/liverpool.jpg" alt="Skyline Liverpool" />
+      <img src="./assets/images/liverbird.jpg" alt="Liverbirds" />
+      <img src="./assets/images/dock.jpg" alt="Ferry terminal, Liverpool" />
+      <img
+        src="./assets/images/anfield.jpeg"
+        alt="Anfield Stadium, Liverpool"
+      />
+      <img src="./assets/images/goodison.jpeg" alt="Goodison Park, Liverpool" />
+      <img src="./assets/images/dream.jpeg" alt="Dream sculpture, St Helens" />
+      <img
+        src="./assets/images/thor.jpeg"
+        alt="Thor's Rock, Thurstaston, Wirral"
+      />
+      <img src="./assets/images/crosby.jpeg" alt="Figures on Crosby Beach" />
+      <img
+        src="./assets/images/wigwam.jpeg"
+        alt="Metropolitan Cathedral, Liverpool"
+      />
+      <img src="./assets/images/albert.jpeg" alt="Albert Dock, Liverpool" />
     </section>
     <footer>
-        <nav>
-            <ul>
-                <li class="list-inline-item"> <a target="_blank" href="https://en-gb.facebook.com/"><span
-                            class="sr-only">Facebook</span><i id="social2" class="fa fa-facebook"
-                            aria-hidden="true"></i></a> <span class="sr-only">Facebook</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://twitter.com/?lang=en"><span
-                            class="sr-only">Twitter</span><i id="social2" class="fa fa-twitter"
-                            aria-hidden="true"></i></a> <span class="sr-only">Twitter</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://www.instagram.com/"><span
-                            class="sr-only">Instagram</span><i id="social2" class="fa fa-instagram"
-                            aria-hidden="true"></i></a> <span class="sr-only">Instagram</span> </li>
-                <li class="list-inline-item"> <a target="_blank" href="https://www.youtube.com/"><span
-                            class="sr-only">Youtube</span><i id="social2" class="fa fa-youtube"
-                            aria-hidden="true"></i></a> <span class="sr-only">Youtube</span> </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://en-gb.facebook.com/"
+              ><span class="sr-only">Facebook</span
+              ><i id="social2" class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Facebook</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/?lang=en"
+              ><span class="sr-only">Twitter</span
+              ><i id="social2" class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Twitter</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/"
+              ><span class="sr-only">Instagram</span
+              ><i id="social2" class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Instagram</span>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.youtube.com/"
+              ><span class="sr-only">Youtube</span
+              ><i id="social2" class="fa fa-youtube" aria-hidden="true"></i
+            ></a>
+            <span class="sr-only">Youtube</span>
+          </li>
+        </ul>
+      </nav>
     </footer>
-</body>
-
+  </body>
 </html>
