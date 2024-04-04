@@ -64,7 +64,7 @@ a {
     text-decoration: none;
 }
 
-#logo {
+.logo {
     float: left;
     font-family: "Tilt Neon", sans-serif;
     text-transform: uppercase;
