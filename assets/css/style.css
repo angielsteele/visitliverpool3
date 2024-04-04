@@ -84,12 +84,18 @@ body {
     font-size: 36px;
 }
 
+.h4 {
+    color: #fff;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 36px;
+}
+
 /*--------------------------------WIN FORM*/
 
 .win-form {
     background-size: cover;
     background-position: center;
-    background-color: #9a0200;
+    background-color: #1e1666;
     max-width: 500px;
     max-height: 500px;
     margin: 0 auto;
