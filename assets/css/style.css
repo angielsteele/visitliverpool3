@@ -42,15 +42,6 @@ a {
     margin-left: 10px;
 }
 
-/*--------------------------------HEADER DESIGN*/
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
-
-.active>span {
-    border-bottom: 2px solid #1e1666;
-}
 
 /*--------------------------------FONT AWESOME STYLING*/
 
