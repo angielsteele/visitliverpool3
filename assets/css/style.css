@@ -109,8 +109,7 @@ a {
     font-size: 36px;
 }
 
-#social2 {
-    color: #fff;
+.social2 {
     font-size: 16px;
 }
 
@@ -145,6 +144,12 @@ body {
 #welcome {
     color: #1e1666;
     text-align: center;
+}
+
+.h3 {
+    color: #1e1666;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 36px;
 }
 
 /*--------------------------------HOME SECTION DESIGN*/
