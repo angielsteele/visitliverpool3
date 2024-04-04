@@ -83,16 +83,6 @@ body {
     font-size: 36px;
 }
 
-/*--------------------------------HOME SECTION DESIGN*/
-
-#ferry {
-    background-image: url(../images/ferry.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 20px;
-}
-
 /*--------------------------------WIN FORM*/
 
 .win-form {
