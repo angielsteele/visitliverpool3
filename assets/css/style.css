@@ -11,39 +11,6 @@ p {
     font-weight: 700;
 }
 
-.ui-menu-color-home {
-    background-color: #9f2305;
-    padding: 0;
-    min-width: 114px;
-    max-width: 114px;
-}
-
-.ui-menu-color-todo {
-    background-color: #aa2704;
-    padding: 0;
-    min-width: 114px;
-    max-width: 114px;
-}
-
-.ui-menu-color-pictures {
-    background-color: #9a0200;
-    padding: 0;
-    min-width: 114px;
-    max-width: 114px;
-}
-
-
-.ui-menu-color-getaway {
-    background-color: #850e04;
-    padding: 0;
-    min-width: 114px;
-    max-width: 114px;
-}
-
-.menu a :hover {
-    background-color: #fff;
-    color: #850e04;
-}
 
 section {
     background-color: #ACCBFF;
