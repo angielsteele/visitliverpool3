@@ -168,7 +168,7 @@ h2 {
 /*--------------------------------TABLET*/
 @media screen and (min-width: 1396px) {
 
-    #social2 {
+    .social2 {
         display: none;
     }
 }
@@ -188,14 +188,9 @@ h2 {
         display: none;
     }
 
-    #social2 {
+    .social2 {
         color: #fff;
     }
-
-    #socials {
-        display: none;
-    }
-
 
     .main-text {
         padding: 0;
@@ -258,12 +253,8 @@ h2 {
         display: none;
     }
 
-    #social2 {
+    .social2 {
         color: #fff;
-    }
-
-    #socials {
-        display: none;
     }
 
     .main-text {
