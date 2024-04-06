@@ -74,13 +74,13 @@ test
 
 ### Visitor goals
 
-The aim for this site is to help visitors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
+The aim for this site is an information guide about some of the areas in Merseyside. It is aiming to help visitors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
 
 - People who are undecided about whether they would like to visit the area.
 
 - People who may not have been to Merseyside before.
 
-- People who are keen to see what an area has to offer before making a journey.
+- People who are keen to see what the area has to offer before making a journey.
 
 - People who would like to win a trip to the area.
 
@@ -108,8 +108,6 @@ Merseymoods fills the above needs in the following ways:
 
 - Navigation buttons have the hover feature, to ensure the user knows where they are clicking before clicking it.
 
-- Navigation buttons have design styling to underline the page that is currently active.
-
 - Pictures of the area have been added to a specific pictures page.
 
 - Links to additional webpages with attraction information (these pages are not affiliated with me). These pages open in a new tab to make it clear this is a different website.
@@ -120,7 +118,7 @@ Merseymoods fills the above needs in the following ways:
 
 - Social Media links have been added, which open in a new tab.
 
-- Colours have been chosen so that they stand out. More information about this in the colours section of this document.
+- Colours have been chosen so that the website is easy to read.
 
 ### Business goals
 
@@ -190,13 +188,13 @@ All fonts were sourced from Google Fonts.
 
 ![Font Awesome](./assets/images/font-awesome.jpg)
 
-The icons have been inserted using the <i> tag, and by using class names to identify styling for these icons. They have been inserted into the header and footer sections of the website, and have been amended based on the media  type used to view the webpage.
+The icons have been inserted using the <i> tag, and by using class names to identify styling for these icons. They have been inserted into the footer section of the website.
 
 ## Colours
 
 ![Colour Template](./assets/images/readme5.png)
 
-As Merseyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. In order to give a large contrast for the menu items, and some of the details, I opted for a colour opposite to blue on the colour wheel. For this I chose red. I am also conscious that the two rival football clubs in Liverpool play in Red or Blue, so I opted for the colours not to directly match the football strips. It is intended to give a subtle nod to the two teams, rather than overtly referencing them. My preference is the underdogs of Tranmere Rovers, who play in mainly white. There is some text which is white.
+As Merseyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. However, due to feedback I later changed this so that the background was #ffffff and the text remained dark blue. Original iterations meant that the text and background may have been difficult for some users to read correctly. 
 
 ## Images
 
@@ -210,7 +208,7 @@ As some of the pictures were taken using a mobile phone camera, some of the pict
 
 ## Styling
 
-Menu items were styled using Bootstrap4, and all colours defined in the CSS so that they are consistent throughout.
+Menu items were styled using Bootstrap4, and a burger menu feature for smaller devices.
 Bootstrap4 was also utilised to assist with screen reader information, especially for links such as Social Media links.
 Boostrap was also pivotal to assist with alignment that I required for the main body of the home page, and also the navigation elements. I wanted to ensure that the home page had a grid design of col-8/col-4 so that the text was the focal point, but an image would complement it.
 Flexbox was used to add the things to do section to a clear grid format, that was adaptable for all media types easily by changing the width within the media queries.
@@ -228,20 +226,19 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - The navbar consists of 4 options; Home, Things to do, Pictures and Win a getaway
 - The navbar includes the hover feature so that the user knows which section they are selecting before selecting it
-- The navbar also has design features to let the user know which page is active in the website
-- The navbar remains the same size in the smaller versions, however for future iterations, I would like to include a hamburger menu to replace the larger buttons
+- The navbar reduces to a burger menu for smaller screens
 
 #### Footer
 
 - The footer consists of a picture to decorate the bottom of the screen
 - The footer picture is relative, so it does not matter the size of the screen, you see the full width of the landscape picture
-- In smaller resolutions, the footer also contains a smaller version of the Social Media icons, which are presented in white to stand out on the image
+- The footer also contains the Social Media icons, which are presented in white to stand out on the image
 - The footer is consistent across all pages
 
 #### Home page
 
 - The body of the home page consists of information about Merseyside.
-- In larger resolutions, the user will also see a picture of the Mersey Ferry on the left hand side of the page, this was removed for smaller screen sizes, to ensure text was legible.
+- Originally the text was significantly longer, however due to feedback, I have edited the information to make the page less wordy.
 
 #### Things to do
 
@@ -272,8 +269,6 @@ Styling within media queries was used to ensure that the page was not too clutte
 - Links to Social Media linked to specific places, rather than user home page or login.
 
 - Form allowing only one entry per email address, and a pop up message saying this.
-
-- Mobile device having hamburger menu instead of buttons.
 
 - Form to link to backend to make it usable.
 
