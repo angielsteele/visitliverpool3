@@ -33,14 +33,23 @@ body {
 
 /* FONT AWESOME STYLING */
 
-.social2 {
-    font-size: 30px;
+.social2 a i {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: .5rem .5rem;
     color: #ffffff;
 }
 
-.social2 li {
-    width: 15%;
-    padding: 5px;
+.social2 {
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    letter-spacing: 5px;
+    justify-content: space-between;
+    padding: 16px 64px 0px 0px
 }
 
 /* FOOTER */
@@ -54,6 +63,7 @@ footer {
     margin-top: 5px;
     width: 100%;
     position: relative;
+    text-align: center;
 }
 
 /* TEXT DESIGN */
@@ -126,12 +136,12 @@ h2 {
 
 #photos {
     line-height: 0;
-    column-count: 4;
+    column-count: 2;
     column-gap: 0px;
 }
 
 #photos img {
-    width: 100%;
+    width: 50%;
 }
 
 /* THINGS TO DO */
@@ -248,7 +258,7 @@ h2 {
     }
 
     .video {
-        width: fit-content;
+        width: 700px;
     }
 
     #photos {
