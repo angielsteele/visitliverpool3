@@ -90,6 +90,12 @@ body {
     font-size: 36px;
 }
 
+/* Video */
+
+.video {
+    margin: auto;
+}
+
 /*--------------------------------WIN FORM*/
 
 .win-form {
