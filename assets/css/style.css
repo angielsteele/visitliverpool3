@@ -42,14 +42,9 @@ body {
 }
 
 .social2 {
-    font-size: 50px;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
     display: inline-block;
     letter-spacing: 5px;
-    justify-content: space-between;
-    padding: 16px 64px 0px 0px
 }
 
 /* FOOTER */
