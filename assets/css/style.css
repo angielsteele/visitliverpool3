@@ -133,11 +133,10 @@ h2 {
 #photos {
     line-height: 0;
     column-gap: 0px;
-    align-items: center;
 }
 
 #photos img {
-    width: 50%;
+    width: 75%;
 }
 
 /* THINGS TO DO */
@@ -193,6 +192,7 @@ h2 {
 
     #photos {
         columns: 4;
+        text-align: center;
     }
 
     .win-form-section {
@@ -236,7 +236,6 @@ h2 {
 
 
     #welcome {
-        width: 65%;
         height: 100%;
         margin: 0 auto;
         text-align: center;
@@ -298,9 +297,16 @@ h2 {
     }
 
     .container2 {
-        width: 50%;
+        width: inherit;
         text-align: center;
+    }
 
+    .container2 p {
+        display: none;
+    }
+
+    .container2 h2 {
+        font-size: medium;
     }
 
     .list-inline {
