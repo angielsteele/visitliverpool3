@@ -132,8 +132,8 @@ h2 {
 
 #photos {
     line-height: 0;
-    column-count: 2;
     column-gap: 0px;
+    align-items: center;
 }
 
 #photos img {
@@ -192,7 +192,7 @@ h2 {
     }
 
     #photos {
-        columns: 2;
+        columns: 4;
     }
 
     .win-form-section {
