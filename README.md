@@ -296,9 +296,9 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 ## Frameworks
 
-- [Bootstrap4](https://getbootstrap.com/)
+- [Bootstrap4.6](https://getbootstrap.com/)
 
-  - Used for some basic styles and layout (e.g. grid for body of the index.html)
+  - Used for some basic styles and layout (e.g. grid for body of the todo.html)
 
 ## Libraries
 
@@ -326,7 +326,7 @@ Styling within media queries was used to ensure that the page was not too clutte
 
   - To create wireframes
 
-- [PlaceIt](https://placeit.net/)
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://angielsteele.github.io/visitliverpool3/)
 
   - Used for devise mockup images
 
@@ -343,10 +343,25 @@ Styling within media queries was used to ensure that the page was not too clutte
 ### Validation
 
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+
+
+![HTML index.html](./assets/images/html1.PNG)
+![HTML pictures.html](./assets/images/html2.PNG)
+![HTML todo.html](./assets/images/html3.PNG)
+![HTML win.html](./assets/images/html4.PNG)
+![HTML thanks.html](./assets/images/html5.PNG)
   
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+
+![CSS validators](./assets/images/css.PNG)
   
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
+
+
+![Link checker for index.html](./assets/images/link1.PNG)
+![Link checker for pictures.html](./assets/images/link2.PNG)
+![Link checker for win.html](./assets/images/link3.PNG)
 
 ### General Testing
 
