@@ -465,9 +465,9 @@ Styling within media queries was used to ensure that the page was not too clutte
 
 - Information about local area was paraphrased from sites they are linked to in the Things to do section
 
-## Citations
+- My mentor, who has helped me with adding input for how to create a thank you page, and with Flexboxes
 
-[Mersey Ferry picture](https://www.merseyferries.co.uk/our-cruises/river-explorer-cruise/?gad_source=1&gclid=Cj0KCQjwhfipBhCqARIsAH9msbnVPrRMuwAd625CtTCUIyq1blvIOr2bZ6hhxRb9XX3jhAO5i1V3-QUaAoEnEALw_wcB)
+## Citations
 
 [Crosby Beach picture](https://news.sky.com/story/liverpool-resisters-criticised-for-anti-trans-sticker-stunt-on-crosby-beach-statues-11477713)
 
