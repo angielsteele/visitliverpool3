@@ -2,7 +2,7 @@
 
 ![Phone Mockup](./assets/images/mobile.PNG)
 
-[Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
+[Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is an imformative site designed to help prospective visitors to Merseyside know what local attractions are available. In order to do this it comprises of four main sections, which can all be navigated to without the use of a back button:
 
 - Home page
 
@@ -73,13 +73,13 @@
 
 ### Visitor goals
 
-The aim for this site is an information guide about some of the areas in Merseyside. It is aiming to help visitors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
+The aim for this site is an information guide about some of the areas in Merseyside that might not be known to visitors unfamilar with the local area. It is aiming to help visitors decide if they would like to visit Merseyside before making the trip. Therefore, the target audience is:
 
 - People who are undecided about whether they would like to visit the area.
 
 - People who may not have been to Merseyside before.
 
-- People who are keen to see what the area has to offer before making a journey.
+- People who are keen to see what the area has to offer before making their journey.
 
 - People who would like to win a trip to the area.
 
@@ -103,11 +103,13 @@ The aim for this site is an information guide about some of the areas in Merseys
 
 Merseymoods fills the above needs in the following ways:
 
-- Navigation is linked to all pages on the website.
+- Navigation is linked to all pages on the website, without the need of a back button.
 
 - Navigation buttons have the hover feature, to ensure the user knows where they are clicking before clicking it.
 
-- Pictures of the area have been added to a specific pictures page.
+- Pictures of the area have been added to a specific pictures page, therefore showing some of the local amenities.
+
+- A video of the local area has been added to the Home page to show what is available in Merseyside. It can be controlled by the user, and when the page loads, it is set to only start on the user's click. (Video found on YouTube, credit to Merseyside Tourism)
 
 - Links to additional webpages with attraction information (these pages are not affiliated with me). These pages open in a new tab to make it clear this is a different website.
 
@@ -121,7 +123,7 @@ Merseymoods fills the above needs in the following ways:
 
 ### Business goals
 
-- Attract visitors to the area, therefor helping local economy.
+- Attract visitors to the area, therefore helping local economy.
 
 - Advertising local attractions to help businesses attract more customers.
 
@@ -149,13 +151,19 @@ Merseymoods fills the above needs in the following ways:
 
 ## Colour scheme
 
-- Original colour scheme was intended to capture the rural nature of the location, green and blue
+- Original colour scheme was intended to capture the rural nature of the location, green and blue.
 
 - The blues and greens of the colour scheme were too similar in colour, and did not show a lot of definition for the navigation buttons, so I changed to the scheme that is now being used.
+
+- It was important for me to chenge the colour scheme, so that the website met accessibility guidelines. Due to the changes of the colours, it now meets the accessibility guidelines, as evidenced by the Wave Report.
+
+![Wave Report](./assets/images/wave.PNG)
 
 ## Design
 
 - The original design was to have a picture of the Liverbirds as a hero logo. Unfortunately, the picture was rectangle and not square, so I was unable to create the original rounded style using the border radius function. I opted to have a logo which was the name of the site, and a picture for the footer instead. The picture of the Liverbirds was then added to the gallery.
+
+- The original design was also a lot more "busy" than the current design, with a large image of the Ferry across the Mersey, and a lot of text on the home page. I have since removed these elements, as they were detracting from the website. By removing them, it is easier for the user to understand the purpose of the website, without being overloaded with text and large images.
 
 ----
 
@@ -193,7 +201,7 @@ The icons have been inserted using the <i> tag, and by using class names to iden
 
 ![Colour Template](./assets/images/readme5.png)
 
-As Merseyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. However, due to feedback I later changed this so that the background was #ffffff and the text remained dark blue. Original iterations meant that the text and background may have been difficult for some users to read correctly. 
+As Merseyside is located on the Mersey estuary, I wanted the design to be nautical. I opted for blue for the main background, and a darker shade for the majority of the text. However, due to feedback I later changed this so that the background was light grey and the text remained dark blue. Original iterations meant that the text and background may have been difficult for some users to read correctly. 
 
 ## Images
 
@@ -201,17 +209,16 @@ As Merseyside is located on the Mersey estuary, I wanted the design to be nautic
 
 Images have been used to show the visitor a glimpse into the local area, and allow them to make an informed decision to whether Merseyside is somewhere they would like to visit. Images sourced from the internet and unique images taken by my husband have been used in the picture gallery.
 
-Where the screen size is larger, you can see the images as a collage, however the images in smaller screen resolutions has been reduced to one column, so that the pictures are not too small to be seen on the smaller screens.
+Where the screen size is larger, you can see the images in 4 rows, however the images in smaller screen resolutions has been reduced to one column, so that the pictures are not too small to be seen on the smaller screens.
 
-As some of the pictures were taken using a mobile phone camera, some of the pictures have a granular aspect to them. This is an area of improvement for future versions of the website.
+As some of the pictures were taken using a mobile phone camera, some of the pictures have a granular aspect to them. This is an area of improvement for future versions of the website. However, I have tried to rectify this by using [Tiny PNG](https://tinypng.com/) to compress the images, therefore making them less granular and faster to load. I have also reduced the size from the first iterance of the website, as this was emphasising the granularity of some of the photographs.
 
 ## Styling
 
-Menu items were styled using Bootstrap4, and a burger menu feature for smaller devices.
-Bootstrap4 was also utilised to assist with screen reader information, especially for links such as Social Media links.
-Boostrap was also pivotal to assist with alignment that I required for the main body of the home page, and also the navigation elements. I wanted to ensure that the home page had a grid design of col-8/col-4 so that the text was the focal point, but an image would complement it.
+Menu items were styled using [Bootstrap4.6](https://getbootstrap.com/), and a burger menu feature for smaller devices. The specific code that I used was sources from [Bootstrap Nav](https://getbootstrap.com/docs/4.6/components/navs/), and I edited the code to include the MerseyMoods logo, my chosen fonts, and the correct number of menu items.
+[Bootstrap4.6](https://getbootstrap.com/) was also utilised to assist with screen reader information, especially for links such as Social Media links.
 Flexbox was used to add the things to do section to a clear grid format, that was adaptable for all media types easily by changing the width within the media queries.
-Styling within media queries was used to ensure that the page was not too cluttered with the Social media icons at the top. In the smaller screen sizes, the Social Media links are seen in the footer, rather than the header.
+Styling within media queries was used to ensure that the page was not too cluttered especially in the [Things to do page](https://angielsteele.github.io/visitliverpool3/todo.html). There was far too much writing on the page for smaller devices, so I removed the paragraphs within the container on smaller devices. I used [W3 schools](https://www.w3schools.com/) to help me with the display: none; css that was needed to do this, and I specified the exact location that I wanted to remove the text.
 
 ----
 
