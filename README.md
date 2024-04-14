@@ -1,7 +1,6 @@
-test
-![Merseymoods Logo](./assets/images/merseymoods.jpg)
+![Merseymoods Logo](./assets/images/merseymoods.PNG)
 
-![Phone Mockup](./assets/images/mobile.png)
+![Phone Mockup](./assets/images/mobile.PNG)
 
 [Merseymoods](https://angielsteele.github.io/visitliverpool3/index.html) is a site designed to help prospective visitors to Merseyside know some of the local attractions available. It comprises of four main sections:
 
@@ -176,7 +175,7 @@ Merseymoods fills the above needs in the following ways:
 
 All fonts were sourced from Google Fonts.
 
-![Fonts](./assets/images/fonts.jpg)
+![Fonts](./assets/images/fonts.PNG)
 
 - The primary font, which is used for the main body of the content is [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans). It was chosen because it is a sans-serif font, is clear to read, however has some styling to make it stand out from other sites. I also feel it complements the text chosen for headers.
 
@@ -186,7 +185,7 @@ All fonts were sourced from Google Fonts.
 
 [FontAwesome](https://fontawesome.com/) has been used for the Social Media icons, and the icons for the menu items.
 
-![Font Awesome](./assets/images/font-awesome.jpg)
+![Font Awesome](./assets/images/font-awesome.PNG)
 
 The icons have been inserted using the <i> tag, and by using class names to identify styling for these icons. They have been inserted into the footer section of the website.
 
