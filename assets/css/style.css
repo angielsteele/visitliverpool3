@@ -253,7 +253,8 @@ h2 {
     }
 
     .video {
-        width: 700px;
+        position: relative;
+        width: 100%;
     }
 
     #photos {
